@@ -112,7 +112,7 @@ class _CountriesListBodyState extends State<CountriesListBody> {
                                       ),
                                       leading: Image(
                                           height: 50,
-                                          width: 50,
+                                          width: 50,  
                                           image: NetworkImage(
                                               snapshot.data![index]
                                                   ['countryInfo']['flag'])),
